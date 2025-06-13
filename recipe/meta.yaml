@@ -1,5 +1,5 @@
 {% set name = "afm" %}
-{% set version = "0.2.2" %}
+{% set version = "1.0.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-    sha256: c83e698e759ab0063331ff84ca39c4673b03318f4ddcbe8e90177dd01e4c721a
+    sha256: 5bd4d6f6241e7014ef090985ec6f4c3e9745f6de0828ddd58bc1efdd138f4545
 
 build:
   noarch: generic

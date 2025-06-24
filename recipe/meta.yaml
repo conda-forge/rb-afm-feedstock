@@ -1,7 +1,6 @@
 {% set name = "afm" %}
-{% set version = "1.0.0" %}
-{% set hash = "5bd4d6f6241e7014ef090985ec6f4c3e9745f6de0828ddd58bc1efdd138f4545" %}
-{% set build = 2 %}
+{% set version = "0.2.2" %}
+{% set hash = "c83e698e759ab0063331ff84ca39c4673b03318f4ddcbe8e90177dd01e4c721a" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -13,7 +12,7 @@ source:
 
 build:
   noarch: generic
-  number: {{ build }}
+  number: 1
   script:
     - gem install -N -l -V --norc --ignore-dependencies -n $PREFIX/bin {{ name }}-{{ version }}.gem
     - gem unpack {{ name }}-{{ version }}.gem

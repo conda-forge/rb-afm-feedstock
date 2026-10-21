@@ -1,7 +1,7 @@
 {% set name = "afm" %}
-{% set version = "0.2.2" %}
-{% set hash = "c83e698e759ab0063331ff84ca39c4673b03318f4ddcbe8e90177dd01e4c721a" %}
-{% set build = 2 %}
+{% set version = "1.0.1" %}
+{% set hash = "4fc98c6ea9cad60c25ae12bad517513b0d6fdbedc099e25be88bf47977b7d879" %}
+{% set build = 0 %}
 
 package:
   name: rb-{{ name|lower }}
